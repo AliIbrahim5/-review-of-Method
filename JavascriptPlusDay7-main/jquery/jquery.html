@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta id="hey-im-meta" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="./jquery.css" />
+    <title>Work List</title>
+</head>
+
+<body>
+    <header id="main-header" class="bg-dark text-white p-4 w-100 fixed-top">
+        <div class="container text-center">
+            <h1 class="main-title " id="header-title">Shopping List</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div id="main" class="card card-body">
+            <h2 id="main-title" class="title">Add Items</h2>
+            <form id="submit-form" class="form-inline mb-3">
+                <input id="input-form" type="text" class="form-control mr-2">
+                <input type="submit" class="btn btn-dark" value="Submit">
+                <input id="clear-button" type="button" class="btn btn-danger ml-3" value="Clear">
+            </form>
+            <h2 class="title">Items</h2>
+            <ul id="items" class="list-group">
+                <li class="list-group-item">Item 1</li>
+                <li class="list-group-item">Item 2</li>
+                <li class="list-group-item">Item 3</li>
+                <li class="list-group-item">Item 4</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./jquery.js"></script>
+
+
+</body>
+
+</html>
